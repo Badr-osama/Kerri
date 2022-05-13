@@ -1,0 +1,299 @@
+/* Start section navbar */
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #AF567F !important;
+}
+/* End section navbar */
+
+/* Start section bg */
+#bg{
+    min-height: 100vh;
+    background-image: url(../image/header-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+#bg .bg1{
+    min-height: 100vh;
+    background: rgba(0,0,0,0.6);
+}
+#bg .content h1{
+    font-size: 60px;
+}
+#bg .content h1::after{
+    content: "A Graphic designer";
+    animation: badr 2s linear 1s infinite alternate;
+}
+@keyframes badr{
+    0%{
+        content: "";
+    }
+    10%{
+        content: "A|"
+    }
+    20%{
+        content: "A GRA|"
+    }
+    30%{
+        content: "A GRAPH|"
+    }
+    40%{
+        content: "A GRAPHIC|"
+    }
+    50%{
+        content: "A GRAPHIC D|"
+    }
+    60%{
+        content: "A GRAPHIC DE|"
+    }
+    70%{
+        content: "A GRAPHIC DESI|"
+    }
+    80%{
+        content: "A GRAPHIC DESIGN|"
+    }
+    90%{
+        content: "A GRAPHIC DESIGNE|"
+    }
+    100%{
+        content: "A GRAPHIC DESIGNER,|"
+    }
+}
+#bg .content p{
+    max-width: 500px;
+}
+#bg .content button{
+    background: unset;
+    border: 1px solid white;
+}
+#bg .content button:hover{
+    border: 0;
+    color: black !important;
+    background: white;
+    transition: 0.5s ease-in-out;
+}
+
+#bg .icons .setting{
+    top: 20%;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+#bg .icons .button{
+    width: 20px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 30px;
+    bottom: 5%;
+    animation: moving 3s linear infinite alternate;
+}
+@keyframes moving{
+    0%{
+        bottom: 7%;
+    }
+    50%{
+        bottom: 5%;
+    }
+    100%{
+        bottom: 7%;
+    }
+}
+#bg .icons .button::after{
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 5px;
+    background-color: white;
+    left: 50%;
+    bottom: 5px;
+    transform: translate(-50%);
+}
+#bg .icons .top{
+    right: 30px;
+    bottom: 20px;
+    border-radius: 5px;
+    background-color: #AF567F;
+}
+/* End section bg */
+
+/* Start section about */
+#about .right h3 span{
+    color: #AF567F;
+}
+#about .icons1 a{
+    color: black;
+    border:1px solid rgba(0,0,0,0.2);
+    border-radius: 25px;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#about .icons1 a:hover{
+    color: #AF567F;
+    border: 1px solid #AF567F;
+    transition: 0.5s ease-in-out;
+}
+/* End section about */
+
+/* Start section services */
+#services{
+    background: #F8F9FA;
+}
+#services .row{
+    margin: 80px 0;
+}
+#services .row .fa-solid{
+    color: #AF567F;
+}
+#services .row .fab{
+    color: #AF567F;
+}
+#services .row .fas{
+    color: #AF567F;
+}
+#services .row .item h2:after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 2px;
+    background-color: #AF567F;
+    transition: all 0.5s ease-in-out;
+}
+#services .row .item:hover h2::after{
+    width: 100px;  
+}
+/* End section services */
+
+/* Start section flancer */
+#flancer .container a{
+    color: white;
+    background-color: #AF567F;
+    border: 1px solid #AF567F;
+    padding: 10px 26px;
+    border-radius: 5px;
+}
+/* End section flancer */
+
+/* Start section client */
+#client{
+    background: #F8F9FA;
+}
+.carousel.slide{
+    margin: 80px 0;
+}
+.carousel.slide .client-item .fas{
+    color: #AF567F
+}
+.carousel-indicators button{
+    color: #AF567F !important;
+    background-color: #AF567F !important;
+    width: 12px !important;
+    height: 5px !important;
+    border-radius: 5% !important;
+}
+.carousel-indicators button.active{
+    width: 24px !important;
+}
+/* End section client */
+
+/* Start section work */
+#work .navs{
+    margin: 80px 0;
+}
+.nav-pills .nav-link.active, 
+.nav-pills .show>.nav-link{
+    background-color: #AF567F !important;
+    color: white !important;
+    border-radius: 25px;
+}
+.nav-pills .nav-link{
+    color: black !important;
+    margin: 10px;
+}
+#work .container .content-all{
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+#work .container .content-all:hover img{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+#work .container .content-all .overlay{
+    width: 0;
+    height: 0;
+    left: 0;
+    background: rgba(0,0,0,0.6);
+    transition: all 0.5s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden !important ;
+}
+#work .container .content-all:hover .overlay{
+    width: 100%;
+    height: 100%;
+}
+/* End section work */
+
+/* Start section blog */
+#blog{
+    background: #F8F9FA;
+}
+#blog .row{
+    margin: 80px 0;
+}
+#blog .blog-item h3 span{
+    color: #AF567F;
+}
+#blog .blog-item h2,h3,h4{
+    cursor: pointer;
+}
+/* End section blog */
+
+/* Start section contact */
+#contact .row{
+    margin-top: 40px;
+}
+#contact .two{
+    margin-bottom: 40px;
+}
+#contact .contact-item .fas{
+    color: #AF567F;
+}
+#contact .bttn .btn{
+    background-color: #AF567F;
+    color: white;
+    width: 200px;
+    height: 60px;
+}
+/* End section contact */
+
+/* Start section end */
+#end{
+    background: #242424;
+}
+#end .icons2 a{
+    color: #6C757D;
+    background-color: #343434;
+    border:1px solid #343434;
+    border-radius: 25px;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#end p{
+    color: #6C757D;
+}
+/* End section end */

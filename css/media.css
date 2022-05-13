@@ -1,0 +1,33 @@
+@media screen and (max-width:1200px){
+    #about .left{
+        margin-top: 70px;
+    }
+}
+@media screen and (max-width:992px){
+    #about .right{
+        margin-top: 25px;
+    }
+    .nav-pills .nav-link{
+        margin: 0;
+    }
+}
+@media screen and (max-width:768px){
+    #bg .content h1{
+        font-size: 40px;
+    }
+    .container .bassam{
+        width: 100% !important;
+    }
+}
+@media screen and (max-width:576px){
+    #bg .content h1{
+        font-size: 30px;
+    }
+    #bg .icons .top{
+        right: 20px;
+        bottom: 20px; 
+    }
+    #about .icons1{
+        width: 75% !important;
+    }
+}
